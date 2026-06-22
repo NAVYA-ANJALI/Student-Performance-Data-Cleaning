@@ -1,25 +1,37 @@
 # Student Performance Data Cleaning Project
 
-## Objective
-Clean and preprocess student performance data using Python Pandas.
+## Overview
+A Python data cleaning and visualization project using Pandas and Matplotlib.
 
-## Tools Used
+## Objective
+Clean raw student performance data by handling missing values, duplicates, inconsistent formats, and invalid records.
+
+## Technologies Used
 - Python
 - Pandas
 - NumPy
+- Matplotlib
 
-## Cleaning Steps
-- Handled missing values
-- Removed duplicate records
-- Standardized text data
-- Fixed incorrect marks
-- Removed invalid ages
-- Exported cleaned dataset
+## Project Files
 
-## Files
-- student_raw.csv - Original dataset
-- student_cleaned.csv - Clean dataset
-- data_cleaning.py - Python cleaning script
+| File | Description |
+|---|---|
+| student_raw.csv | Original unclean dataset |
+| student_cleaned.csv | Cleaned dataset |
+| data_cleaning.py | Data preprocessing script |
+| analysis.py | Visualization script |
+| average_marks.png | Subject average chart |
+| grade_distribution.png | Grade distribution chart |
 
-## Result
-The dataset is cleaned and ready for analysis.
+## Data Cleaning Steps
+
+✔ Removed duplicate records  
+✔ Filled missing values  
+✔ Standardized names and gender values  
+✔ Corrected invalid marks  
+✔ Removed unrealistic data  
+✔ Generated visual reports  
+
+## Output
+
+The cleaned dataset is ready for further analysis and machine learning.
